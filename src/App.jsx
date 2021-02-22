@@ -1,21 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="./Logo_portfolio.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Le portfolio officiel de Ludovick lubérisse est en construction. Pour voir le portfolio de sauvetage,
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ludovick-portfolio.webflow.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          veuillez vous rendre ici
         </a>
       </header>
     </div>
