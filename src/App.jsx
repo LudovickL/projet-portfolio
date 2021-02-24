@@ -1,12 +1,16 @@
 import './App.scss';
+import LienSociaux from './components/LienSociaux';
+import LogoCentre from './components/LogoCentre';
+import NavEcran from './components/NavEcran';
 
 function App() {
   return (
     <div className="App">
+      <NavEcran></NavEcran>
       <div className="App-section">
-          <img src="./Logo_portfolio.png" className="App-logo" alt="logo" />
-          <h1 className="App-title">Acceuil</h1> 
+          <LogoCentre></LogoCentre>
       </div>
+      <LienSociaux></LienSociaux>
     </div>
   );
 }

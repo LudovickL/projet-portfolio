@@ -1,0 +1,29 @@
+.Logo-conteneur {
+    // min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    
+    .App-logo {
+      position: relative;
+      height: 40vmin;
+      pointer-events: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 0;
+      
+    }
+      
+    .App-title {
+      font-family: 'Odibee Sans', cursive;
+      position: absolute;
+      font-size: calc(3.2em + 2vmin);
+      z-index: 1;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      -webkit-text-stroke: 0.2rem #1e1e1e;
+    }
+  }
