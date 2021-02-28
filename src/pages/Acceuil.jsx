@@ -1,4 +1,4 @@
-import './LogoCentre.scss'
+import './Acceuil.scss'
 
 export default function LogoCentre() {
     return(
