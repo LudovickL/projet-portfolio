@@ -1,0 +1,31 @@
+.Apropos {
+    width: 100vmax;
+    color: #eee;
+    font-family: 'Odibee Sans', cursive;
+    position: relative;
+    font-size: calc(3.2em + 2vmin);
+    display: flex;
+    justify-content: center;
+    //text-align: center;
+    -webkit-text-stroke: 0.15rem #1e1e1e;
+  }
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    .img {
+        width: 281px;
+        height: 239px;
+        margin: 0 10vmax 0 10vmax;
+    }
+}
+
+.texte {
+    font-family: 'Signika', sans-serif;
+    color: #eee;
+    font-size: 1.5em;
+    text-justify: inter-word;
+
+    padding: 2vmax 2vmax 0 2vmax ;
+}
+
