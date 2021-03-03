@@ -1,7 +1,12 @@
 .BasDePage {
     position: fixed;
+    font-size: 1.2em;
     left: 0;
     bottom: 0;
     width: 100%;
     color: #eee;
+    margin: 0 0 2vmax 2vmax ;
+    span {
+        margin-right: 1vmax ;
+    }
 }

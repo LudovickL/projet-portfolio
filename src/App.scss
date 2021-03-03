@@ -1,11 +1,12 @@
 .App {
+  position: fixed;
   width: 100vmax;
   height: 100vh;
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
   background-position: center;
-  position: fixed;
-  background-size: 100vw;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
