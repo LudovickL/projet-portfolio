@@ -12,12 +12,12 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border-bottom: 0.3rem #eee solid;
         li {
             margin-left: 5vw;
             margin-right: 5vw;
             align-items: center;
             padding-bottom: 0.3rem;
+            border-bottom: 0.3rem #eee solid;
         }
     }
 }
