@@ -1,9 +1,9 @@
-import './Infos.scss';
+import './Pages.scss';
 
 export default function Projets() {
     return(
         <div className="Infos">
-            <h1 className="Apropos">À propos</h1> 
+            <h1 className="Titre">À propos</h1> 
             <div className="container-img">
                 <img src="./photo_1.png" className="img" alt="Ludovick Lubérisse" />
                 <img src="./photo_2.png" className="img" alt="Ludovick Lubérisse" />

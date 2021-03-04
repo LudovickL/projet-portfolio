@@ -1,5 +1,10 @@
+import './Pages.scss';
+
 export default function Projets() {
     return(
-        <h1>page projets en constructions</h1>
+        <div className="Page">
+            <h1 className="Titre">Projets</h1> 
+            
+        </div>
     )
 }
