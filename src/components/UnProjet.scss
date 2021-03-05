@@ -6,6 +6,9 @@
     justify-content: center;
     margin-left: 5vmax;
     margin-right: 5vmax;
+    border-bottom: 2px solid #eee;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     .projet-logo {
         margin-right: 5vmax;
         .projet-title {
@@ -22,7 +25,7 @@
         }
         .projet-image {
             border: 2px solid white;
-            height: 30vh;
+            height: 20vh;
             z-index: 0;
         }
     }
