@@ -5,6 +5,7 @@
     position: relative;
     font-size: calc(3.2em + 2vmin);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     //text-align: center;
     -webkit-text-stroke: 0.15rem #1e1e1e;
