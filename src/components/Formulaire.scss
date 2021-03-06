@@ -1,0 +1,23 @@
+.form-group {
+    margin: 0 10vmax 5vh 10vmax;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    label {
+        font-family: 'Signika', sans-serif;
+        font-size: 1.3em;
+    }
+    .button{
+        background-color: lightgray;
+        border: none;
+        color: black;
+        padding: 10px 25px;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: 'Signika', sans-serif;
+        font-weight: 800;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+}

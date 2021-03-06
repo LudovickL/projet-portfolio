@@ -1,12 +1,5 @@
 .Projet-conteneur {
     color: #eee;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    margin-left: 5vmax;
-    margin-right: 5vmax;
-    border-bottom: 2px solid #eee;
     padding-top: 2vh;
     padding-bottom: 2vh;
     .projet-logo {
@@ -15,28 +8,14 @@
             font-family: 'Odibee Sans', cursive;
             -webkit-text-stroke: 0.1rem #1e1e1e;
             font-size: 3em;
-            
             position: absolute;
             z-index: 1;
             margin: 0;
-            display: flex;
-            align-items: center;
-            text-align: center;
         }
         .projet-image {
             border: 2px solid white;
             height: 20vh;
             z-index: 0;
-        }
-    }
-    .projet-text {
-        font-family: 'Signika', sans-serif;
-        .projet-desc {
-            font-size: 1.5rem;
-        }
-        .projet-link {
-            font-weight: 700;
-            font-size: 1.2rem;
         }
     }
 }

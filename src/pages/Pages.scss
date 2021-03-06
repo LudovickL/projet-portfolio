@@ -30,3 +30,20 @@
     padding: 2vmax 2vmax 0 2vmax ;
 }
 
+
+.texte-contact {
+    font-family: 'Signika', sans-serif;
+    color: #eee;
+    font-size: 1.5em;
+    text-justify: inter-word;
+    text-align: center;
+    padding: 2vmax 2vmax 0 2vmax ;
+}
+
+.listeProjets {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 10vmax;
+    padding-right: 5vmax;
+    justify-content: center;
+}

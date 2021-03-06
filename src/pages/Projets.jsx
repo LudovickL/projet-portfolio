@@ -6,8 +6,14 @@ export default function Projets() {
         <div className="Page">
             <h1 className="Titre">Projets - Page en construction</h1>
             <div className="listeProjets">
-                <UnProjet />
-                <UnProjet />
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
+                <UnProjet/>
             </div> 
             
         </div>
