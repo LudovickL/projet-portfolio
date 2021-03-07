@@ -34,7 +34,7 @@ class Formulaire extends React.Component {
               <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
             <div className="form-group">
-                <input type="button" class="button" value="Envoyer"></input>
+                <input type="submit" className="button" value="Envoyer"></input>
             </div>
           </form>
         </div>
