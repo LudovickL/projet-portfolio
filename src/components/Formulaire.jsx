@@ -69,6 +69,11 @@ class Formulaire extends React.Component {
           }
         })
       }
+      resetForm(){
+        this.setState({name: '', email: '', message: ''})
+      }
     }
+
+    
     
     export default Formulaire;
