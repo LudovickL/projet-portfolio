@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './Formulaire.scss';
+//import sendMail from './data/sendMail.js';
 
 //Le code pour cette classe fut trouvé sur le blog mailtrap dans un article créer par Aleksandr Varnin:
 // https://blog.mailtrap.io/react-contact-form/#How_do_you_create_a_contact_form_with_React
@@ -19,7 +20,7 @@ class Formulaire extends React.Component {
   
     render() {
       return(
-        <div className="App">
+        <div className="Formulaire">
           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
               <label htmlFor="name">Name</label>
@@ -58,7 +59,7 @@ class Formulaire extends React.Component {
         
         axios({
           method:"POST",
-          url:"/send",
+          url:"http://localhost:3002/send",
           data: this.state
         }).then((response)=>{
           if(response.data.status === 'success') {
