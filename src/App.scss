@@ -1,6 +1,6 @@
 .App {
   position: fixed;
-  width: 100vmax;
+  width: 100vw;
   height: 100vh;
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
@@ -18,17 +18,4 @@ a, a:visited, a:active, a:link {
     color: gray;
   }
 }
-
-
-
-
-
-
-
-
-// @media (prefers-reduced-motion: no-preference) {
-//   .App-logo {
-   
-//   }
-// }
 

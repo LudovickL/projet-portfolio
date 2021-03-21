@@ -1,4 +1,4 @@
-.Entete {
+.Entete-screen {
     top: 0;
     //background-color: #1e1e1e;
     padding: 20px;
@@ -19,6 +19,18 @@
             padding-bottom: 0.3rem;
             border-bottom: 0.3rem #eee solid;
             cursor: pointer;
+            @media screen and (max-width: 900px)  {
+                font-family: 'Odibee Sans', cursive;
+                border-bottom: none;
+                font-size: 3em;
+            }
+        }
+        @media screen and (max-width: 900px)  {
+            flex-direction: column;
         }
     }
+    @media screen and (max-width: 900px)  {
+        position: relative;
+    }
+    
 }
