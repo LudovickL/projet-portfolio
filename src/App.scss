@@ -1,13 +1,18 @@
 .App {
+  
   //position: fixed;
-  min-height: 120vmin;
-  max-height: 100vmax;
+  min-height: 100vmax;
+  max-height: 120vmin;
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #1e1e1e;
+  @media screen and (max-width:1000px){
+    min-height: 100vmax;
+    max-height: 300vmin;
+  }
 }
 
 a, a:visited, a:active, a:link {

@@ -13,18 +13,11 @@ export default function NavEcran() {
                     Ludovick Lubérisse
                 </NavLink>
             </div>
-            <ResponsiveMenu 
-                menuOpenButton={<HamburgerIcon boxSize={12}/>}
-                menuCloseButton={<CloseIcon boxSize={8}/>}
-                changeMenuOn="900px"
-                menu={
-                    <ul className="nav">
-                        <li><NavLink to="/a-propos" activeClassName="navActive">À propos</NavLink></li>
-                        <li><NavLink to="/projets" activeClassName="navActive">Projets</NavLink></li>
-                        <li><NavLink to="/contact" activeClassName="navActive">Contact</NavLink></li>
-                    </ul>
-                }
-            />
+            <ul className="nav">
+                <li><NavLink to="/a-propos" activeClassName="navActive">À propos</NavLink></li>
+                <li><NavLink to="/projets" activeClassName="navActive">Projets</NavLink></li>
+                <li><NavLink to="/contact" activeClassName="navActive">Contact</NavLink></li>
+            </ul>
         </header>
     )
 }

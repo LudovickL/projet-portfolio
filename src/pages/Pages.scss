@@ -29,7 +29,10 @@
     padding: 2vmax 10vmax 0 10vmax ;
     @media screen and (max-width:1000px){
         font-size: 1.1em;
-        padding: 2vmax 10vmax 4vmax 10vmax ;
+        &:last-of-type {
+            padding: 2vmax 10vmax 10vmax 10vmax ;
+        }
+        
     }
 }
 
