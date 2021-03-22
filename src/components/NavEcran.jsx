@@ -1,8 +1,6 @@
 import './NavEcran.scss'
 import { NavLink } from 'react-router-dom';
 import React from 'react';
-import ResponsiveMenu from 'react-responsive-navbar';
-import {HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
 
 export default function NavEcran() {
