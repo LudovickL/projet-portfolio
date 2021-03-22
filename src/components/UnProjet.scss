@@ -8,16 +8,26 @@
             font-family: 'Odibee Sans', cursive;
             -webkit-text-stroke: 0.1rem #1e1e1e;
             font-size: 2.2em;
-            // position: absolute;
+            position: relative;
             z-index: 1;
             margin: 0;
+            top: 8rem;
+            text-align: center;
+            
         }
         .projet-image {
-            width: 20vw;
-            width: 20vh;
-            border: 2px solid white;
-            height: 20vh;
+            width: 200px;
+            height: 200px;
             z-index: 0;
+            opacity: 0.5;
+            @media screen and (max-width:1000px){
+                width: 150px;
+                height: 150px;
+              }
         }
     }
+    @media screen and (max-width:1000px){
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+      }
 }

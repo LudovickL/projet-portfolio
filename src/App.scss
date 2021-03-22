@@ -1,15 +1,16 @@
 .App {
   
-  //position: fixed;
+  //height
   min-height: 100vmax;
   max-height: 120vmin;
+  
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #1e1e1e;
-  @media screen and (max-width:1000px){
+  @media screen and (max-width:500px){
     min-height: 100vmax;
     max-height: 300vmin;
   }

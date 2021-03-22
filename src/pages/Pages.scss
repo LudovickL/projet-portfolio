@@ -15,9 +15,22 @@
     display: flex;
     justify-content: center;
     .img {
-        width: 281px;
-        height: 239px;
+        width: 250px;
+        height: 250px;
+        background-attachment: fixed;
+        background-size: cover;
         margin: 0 10vmax 0 10vmax;
+        @media screen and (max-width: 1500px) {
+            width: 200px;
+            height: 200px;
+            margin: 0 5vmax 0 5vmax;
+            
+        }
+        @media screen and (max-width: 800px) {
+            margin: 0 2vmax 0 2vmax;
+            width: 100px;
+            height: 100px;
+        }
     }
 }
 
@@ -49,7 +62,14 @@
 .listeProjets {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding-left: 10vmax;
-    padding-right: 5vmax;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: center;
+    @media screen and (max-width:1000px){
+        grid-template-columns: auto auto auto;
+      }
+      @media screen and (max-width:800px){
+        grid-template-columns: auto auto;
+      }
+    
 }
