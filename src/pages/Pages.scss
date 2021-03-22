@@ -1,5 +1,5 @@
 .Titre {
-    width: 100vmax;
+    width: 100vw;
     color: #eee;
     font-family: 'Odibee Sans', cursive;
     position: relative;
@@ -24,10 +24,13 @@
 .texte {
     font-family: 'Signika', sans-serif;
     color: #eee;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-justify: inter-word;
-
-    padding: 2vmax 2vmax 0 2vmax ;
+    padding: 2vmax 10vmax 0 10vmax ;
+    @media screen and (max-width:1000px){
+        font-size: 1.1em;
+        padding: 2vmax 10vmax 4vmax 10vmax ;
+    }
 }
 
 

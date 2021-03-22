@@ -1,12 +1,13 @@
 .App {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
+  //position: fixed;
+  min-height: 120vmin;
+  max-height: 100vmax;
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #1e1e1e;
 }
 
 a, a:visited, a:active, a:link {

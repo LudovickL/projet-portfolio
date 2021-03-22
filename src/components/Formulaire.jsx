@@ -10,11 +10,11 @@ function Formulaire() {
     e.preventDefault();
     emailjs.sendForm('service_slsnfcn', 'template_ipesxvr', e.target, 'user_TpRk119LuedlrSVLQDsdx')
       .then((result) => {
-          console.log(result.text);
+          //console.log(result.text);
           alert("Le message à été envoyé!");
           document.getElementsByClassName("button").innerHTML = "message envoyé"
       }, (error) => {
-          console.log(error.text);
+          //console.log(error.text);
           alert("Il y a malheureusement un problème. Veuillez réasseyer plus tard");
       });
       e.target.reset();
