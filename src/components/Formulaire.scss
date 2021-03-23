@@ -1,11 +1,19 @@
 .form-group {
     margin: 0 10vmax 5vh 10vmax;
     color: #eee;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    //align
+    align-items: stretch;
+    justify-items: stretch;
+    //distribute
+    align-content: stretch;
+    justify-content: stretch;
     label {
         font-family: 'Signika', sans-serif;
         font-size: 1.3em;
+    }
+    input, textarea{
+        color: black;
     }
     .button{
         background-color: lightgray;
