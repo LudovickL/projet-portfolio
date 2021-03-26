@@ -33,4 +33,4 @@ class Projets extends React.Component{
     }  
 }
 
-export default Projets
+export default Projets;
