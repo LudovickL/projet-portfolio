@@ -4,7 +4,7 @@ import Modal from './Modal'
 
 
 const UnProjet = ({projets}) => {
-    const {texteCourt, image, lienDuProjet} = projets.fields; 
+    const {texteCourt, image, lienDuProjet, descriptionDuProjet} = projets.fields; 
     // Use useState to manage show value. The value is false by default.
     const [show, setShow] = useState(false);
 
@@ -16,7 +16,18 @@ const UnProjet = ({projets}) => {
                 <h1 className="projet-title">{texteCourt}</h1>
                 <img src={image.fields.file.url} alt={texteCourt} className="projet-image" onClick={() => setShow(true)}/>
             </div>
-            <Modal show={show} onClose={() => setShow(false)}/>
+            <div className="projet-modal">
+                <Modal 
+                    title={texteCourt} 
+                    desc={descriptionDuProjet}
+                    img={image.fields.file.url}
+                    alt={texteCourt}
+                    url={lienDuProjet}
+                    show={show} 
+                    onClose={() => setShow(false)}
+                    />
+            </div>
+            
         </div>
     )
 }

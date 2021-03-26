@@ -1,6 +1,6 @@
 .App {
   min-height: 100vmax;
-  max-height: 0vmin;
+  //max-height: 0vmin;
   background: url(../src/img-importants/background_portfolio.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -10,7 +10,7 @@
   @media screen and (max-width:500px){
     position: static;
     min-height: 100vmax;
-    max-height: 300vmin;
+    max-height: 400vmin;
   }
 }
 
