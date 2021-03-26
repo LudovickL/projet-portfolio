@@ -8,6 +8,7 @@ import Projets from './pages/Projets';
 import Contact from './pages/Contact';
 import { ChakraProvider } from '@chakra-ui/react';
 
+
 function App() {
   return (
     <ChakraProvider>
