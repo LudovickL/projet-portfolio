@@ -13,7 +13,7 @@ export default function LogoCentre() {
                 animate="visible" 
                 variants={opacity} 
                 transition={{duration:1}}
-                whileHover={{scale: 1.2, transition: { duration: 0.5 },}}
+                whileHover={{scale: 1.2, transition: { duration: 0.8 },}}
                 >
                 <img src="./Logo_portfolio.png" className="App-logo" alt="logo" />
             </motion.div>
