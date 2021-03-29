@@ -2,17 +2,26 @@ import React from 'react'
 import './Modal.scss'
 import UnProjet from './UnProjet'
 import { Route } from 'react-router-dom'
+import { motion } from "framer-motion"
 
 export default class Modal extends React.Component {
     render() {
         if(!this.props.show){
             return null;
         }
-        // Cliquer sur un lien
-        
+        const opacity= { 
+            hidden: { opacity: 0 }, visible: { opacity: 1 } 
+        };
 
         return(
+            <motion.div 
+                initial="hidden" 
+                animate="visible" 
+                variants={opacity} 
+                transition={{duration:1}}
+                >
             <div className="Modal">
+                
                 <div className="modal-flex">
                     <div className="modal-img">
                         <img src={this.props.img} alt={this.props.alt} className="dynamic-image"/>
@@ -30,6 +39,7 @@ export default class Modal extends React.Component {
                     </div>
                 </div>
             </div>
+            </motion.div>
         )
     }   
 }

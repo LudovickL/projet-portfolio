@@ -1,8 +1,17 @@
 import './Pages.scss';
+import { motion } from "framer-motion"
 
 export default function Projets() {
+    const opacity= { hidden: { opacity: 0 }, visible: { opacity: 1 } };
+
     return(
         <div className="Infos">
+            <motion.div 
+                initial="hidden" 
+                animate="visible" 
+                variants={opacity} 
+                transition={{duration:1}}
+                >
             <h1 className="Titre">À propos</h1> 
             <div className="container-img">
                 <img src="./photo_1.png" className="img" alt="Ludovick Lubérisse" />
@@ -21,6 +30,7 @@ export default function Projets() {
                 Unity et à comprendre le language de code C# à la Techniques d'Intégration Multimédia, au Collège de Maisonneuve. 
                 J'ai de l'expérience avec la suite Adobe, plus particulièrement Photoshop, Premier Pro et After Effects.
             </p>
+            </motion.div>
         </div>
     )
 }
