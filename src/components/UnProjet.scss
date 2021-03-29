@@ -31,6 +31,9 @@
                 width: 150px;
                 height: 150px;
               }
+            @media screen and (max-width:400px){
+                display: none;
+              }
         }
         .projet-url {
             font-weight: 500;
@@ -40,6 +43,12 @@
             bottom: 2rem;
             cursor: pointer;
         }
+    }
+    .projet-modal {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+
     }
     @media screen and (max-width:1000px){
         padding-top: 1vh;

@@ -1,5 +1,4 @@
 .projet-modal {
-    position: fixed;
     z-index: 2;
     .Modal {
         padding-top: 50px;
@@ -7,10 +6,9 @@
         width: 800px;
         height: 400px;
         color: black;
-        
         .modal-flex {
             display: flex;
-            flex-direction: horizontal;
+            flex-direction: columm;
             align-content: center;
             .modal-img {
                 margin-right: 40px;
@@ -71,5 +69,11 @@
                 }
             }
         }
+        @media screen and (max-width:1000px){
+            flex-direction: row;
+        }
+    }
+    @media screen and (max-width:1000px){
+        
     }
 }

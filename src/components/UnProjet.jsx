@@ -17,7 +17,7 @@ const UnProjet = ({projets}) => {
                 <img src={image.fields.file.url} alt={texteCourt} className="projet-image" onClick={() => setShow(true)}/>
             </div>
             <div className="projet-modal">
-                <Modal 
+                <Modal
                     title={texteCourt} 
                     desc={descriptionDuProjet}
                     img={image.fields.file.url}

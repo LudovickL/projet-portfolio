@@ -6,9 +6,16 @@
     width: 100%;
     color: #eee;
     margin: 0 0 2vmax 2vmax ;
-    span {
-        margin-right: 1vmax ;
-        padding-right: 1vmax;
-        border-right: 0.2em solid #eee;
+    .liens {
+        display: inline-block;
+        .liens-txt {
+            margin-right: 1vmax ;
+            padding-right: 0.7vmax;
+            border-right: 0.2em solid #eee;
+        }
+        .liens-icon {
+            margin-left: 0.3vmax;
+        }
     }
+   
 }

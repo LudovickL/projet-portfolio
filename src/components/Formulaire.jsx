@@ -22,21 +22,24 @@ function Formulaire() {
   return(
     <div className="Formulaire">
       <form id="contact-form" onSubmit={sendMail}>
-        <div className="form-group">
-          <label htmlFor="name">Nom</label>
-          <input type="text" className="form-control" name="name"/>
+        <div className="form-whole">
+          <div className="form-group">
+            <label htmlFor="name">Nom</label>
+            <input type="text" className="form-control" name="name"/>
+          </div>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">Adresse courriel</label>
+            <input type="email" className="form-control" aria-describedby="emailHelp" name="email"/>
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea className="form-control" rows="5" name="message"/>
+          </div>
+          <div className="form-group">
+              <input type="submit" className="button" value={msgBouton}></input>
+          </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Adresse courriel</label>
-          <input type="email" className="form-control" aria-describedby="emailHelp" name="email"/>
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea className="form-control" rows="5" name="message"/>
-        </div>
-        <div className="form-group">
-            <input type="submit" className="button" value={msgBouton}></input>
-        </div>
+        
       </form>
     </div>
   );

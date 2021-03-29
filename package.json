@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
-    "framer-motion": "^3.10.0",
+    "framer-motion": "^3.10.6",
     "graphql": "^15.5.0",
     "netlify-cli": "^3.8.5",
     "node-sass": "^5.0.0",
